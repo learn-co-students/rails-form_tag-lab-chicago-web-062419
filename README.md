@@ -1,3 +1,13 @@
+# Steps taken. 
+1. routes.rb - added "[:new] to resources.
+2. students_controller.rb - added #new method.
+3. Create "new.html.erb" views file.
+4. new.html.erb - Build form within.
+5. routes.rb - Added "[:create] to resources. This allows for the POST from the form to link back to index.
+6. students_controller.rb - Added a create method for the form/POST to send it's user input. Also redirected to students_path, index.
+7. new.html.erb - Update form using form_tag.
+
+
 # Rails form_tag Lab
 
 ## Objectives
